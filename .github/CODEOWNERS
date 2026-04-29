@@ -1,0 +1,22 @@
+# Code owners for opentelemetry-go
+# These owners will be requested for review when someone opens a pull request.
+# See https://docs.github.com/en/repositories/managing-your-repositorys-settings-and-features/customizing-your-repository/about-code-owners
+
+# Global owners
+* @open-telemetry/go-approvers
+
+# Core API and SDK
+/sdk/ @open-telemetry/go-approvers
+/api/ @open-telemetry/go-approvers
+
+# Bridge packages
+/bridge/ @open-telemetry/go-approvers
+
+# Exporters
+/exporters/ @open-telemetry/go-approvers
+
+# Example code
+/example/ @open-telemetry/go-approvers
+
+# GitHub configuration and workflows
+/.github/ @open-telemetry/go-approvers
